@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>TMV Forms</title>
+    <style>
+        div {
+            border: 2px solid black;
+            width: 50%;
+            margin: auto;
+            padding: 10px 32px;
+        }
+
+        form {
+            width: fit-content;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 align="center">
+            JET AIRWAYS RESERVATION
+        </h1>
+
+        <form action="success.html">
+
+            <label>Name :</label>
+            <input type="text" name="name"> <br><br>
+
+            <label>City :</label>
+            <input type="text" name="city"> <br><br>
+
+            <label>Qualification:</label> <br>
+            <input type="checkbox" name="edu" value="10th"> 10th Pass <br>
+            <input type="checkbox" name="edu" value="12th"> 12th Pass <br>
+            <input type="checkbox" name="edu" value="graduate"> Graduate <br>
+            <input type="checkbox" name="edu" value="postGraduate"> Post Graduate
+
+            <br><br>
+
+            <label>Class :</label> <br>
+            <input type="radio" name="class" value="Business"> Business
+            <input type="radio" name="class" value="Economy"> Economy
+
+            <br><br>
+
+            <label>Mode of Payment : </label>
+            <select>
+                <option value="cheque">Cheque</option>
+                <option value="cash">Cash</option>
+                <option value="credit">Credit Card</option>
+            </select>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+
+</body>
+
+</html>
